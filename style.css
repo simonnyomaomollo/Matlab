@@ -1,0 +1,28 @@
+body  {
+    height: 100vh;
+    display : grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
+    justify-items: center;
+    width: 100%;
+    counter-reset: initial;
+    background-color: magenta;
+}
+dl{
+    height: 20vh;
+    max-width: 60vh;
+    width: 100%;
+    align-self: center;
+    box-sizing: border-box;
+    margin: 30px;animation:increment 5s infinite;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px 0px lightcoral;
+    background-color: magenta;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px 0px lightcoral;
+    transition: box-shadow 0.5s;
+    overflow: hidden;
+}
+
+dl:hover{box-shadow: -5px 5px 10px 0px lightcoral;}

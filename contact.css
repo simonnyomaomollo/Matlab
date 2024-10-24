@@ -1,0 +1,15 @@
+body{
+    background: purple;
+    }
+#main{
+    background: white;
+    border-radius: 10px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    }
+#one,#two,#three{
+
+  margin-right: 500px;
+
+}
